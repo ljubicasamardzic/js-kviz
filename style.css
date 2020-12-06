@@ -1,0 +1,47 @@
+body{
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #333;
+}
+.pitanje{
+	/* prikaz teksta pitanja */
+	font-weight: 600;
+}
+.odgovori {
+	/* div gdje se nalaze svi odgovori */
+  margin-bottom: 20px;
+}
+.odgovori label{
+	/* labela u kojoj se nalazi input i tekst ponudjenog odgovora */
+  display: block;
+}
+#kviz{
+	/* div u kome se nalaze pitanja i ponudjeni odgovori */
+	margin: 30px;
+}
+#rezultat{
+	/* div u kome se nalazi ucinak igraca na kraju igre */
+	margin: 30px;
+}
+#zavrsi{
+	/* dugme za kraj igre */
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: #279;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 10px;
+	cursor: pointer;
+	margin: 20px;
+}
+#zavrsi:hover{
+	background-color: #38a;
+}
+.tajmer {
+	margin: 20px 10rem 0 0;
+}
+.tajmer-div {
+	background-color: rgb(189, 183, 183);
+	padding: 10px;
+}
